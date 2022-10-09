@@ -1,0 +1,69 @@
+.header {
+    margin: 1rem auto;
+}
+
+.link a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.8rem;
+    position: static;
+}
+
+.link a:hover {
+    background-color: crimson;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.icon {
+    display: none;
+    width: 1.5rem;
+}
+
+.active {
+    background-color: gold;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        margin: 0 auto;
+    }
+
+    /* @keyframes menu {
+        from {top: -15rem;}
+        to {top: 2rem}
+    } */
+
+    .link {
+        margin: 0 auto;
+        background-color: antiquewhite;
+        position: absolute;
+    }
+
+    .link a {
+        display: block;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .on {
+        top: 2rem;
+        /* animation-name: menu;
+        animation-duration: 1s;
+        animation-timing-function: ease-in; */
+    }
+
+    .off {
+        top: -15rem;
+        /* animation-name: menu;
+        animation-duration: 1s;
+        animation-timing-function: ease-in; */
+    }
+}

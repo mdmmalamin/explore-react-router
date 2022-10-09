@@ -1,0 +1,29 @@
+.post {
+    max-width: 20rem;
+    border: 2px solid crimson;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.post h4 {
+    margin-top: 0;
+}
+
+.post p {
+    text-align: justify;
+}
+
+.anchor{
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    padding: 2px 5px;
+}
+
+.anchor span {
+    color: green;
+    font-weight: 700;
+    font-size: 1.1rem;
+}

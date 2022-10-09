@@ -1,0 +1,12 @@
+.friends {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .friends {
+        grid-template-columns: auto;
+    }
+}
